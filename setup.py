@@ -23,7 +23,7 @@ pre_install()
 
 setup(
     name='PlantsAI',
-    version='0.0.0',
+    version='0.0.1',
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=["plantsai"],
@@ -34,7 +34,7 @@ setup(
     license='',
     author='Sajjad Aemmi',
     author_email='sajjadaemmi@gmail.com',
-    description='PlantsAI',
+    description='This seed will sprout soon 🌱',
     include_package_data=True,
     # package_data={"plantsai": ['main.ui']},
     install_requires=post_install(),
