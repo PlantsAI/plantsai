@@ -23,12 +23,11 @@ pre_install()
 
 setup(
     name='PlantsAI',
-    version='0.1.13',
+    version='0.0.0',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    packages=["PlantsAI"],
+    packages=["plantsai"],
     setup_requires=[
-        'pyside6',
         'numpy'
     ],
     url='https://github.com/PlantsAI/plantsai',
@@ -37,9 +36,9 @@ setup(
     author_email='sajjadaemmi@gmail.com',
     description='PlantsAI',
     include_package_data=True,
-    package_data={"plantsai": ['main.ui']},
+    # package_data={"plantsai": ['main.ui']},
     install_requires=post_install(),
     entry_points={
-        "console_scripts": ["plantsai=plantsai.main_window:main"],
+        "console_scripts": ["plantsai=plantsai:__init__"],
     },
 )

@@ -2,3 +2,6 @@ __pycache__
 .vscode
 .idea
 .DS_Store
+PlantsAI.egg-info
+build
+dist

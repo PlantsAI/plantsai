@@ -1,9 +1,1 @@
-matplotlib
-scikit-image
-scikit-learn
-docopt
-torch_geometric
-protobuf
-tensorboardX
-ninja
-opencv-python
+numpy
