@@ -39,6 +39,6 @@ setup(
     # package_data={"plantsai": ['main.ui']},
     install_requires=post_install(),
     entry_points={
-        "console_scripts": ["plantsai=plantsai:__init__"],
+        "console_scripts": ["plantsai=plantsai.plantsai:main"],
     },
 )

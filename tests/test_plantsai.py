@@ -8,6 +8,10 @@ class TestPlantsAI(unittest.TestCase):
     def test_import(self):
         import plantsai
 
+    def test_version(self):
+        import plantsai
+        print(plantsai.__version__)
+
     def test_classifcation(self):
         class_gt = 0
         class_pred = 0
