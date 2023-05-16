@@ -12,6 +12,18 @@ pip install plantsai
 
 ## Usage
 
+### CLI
+
+PlantsAI may be used directly in the Command Line Interface (CLI):
+
+```bash
+plantsai
+```
+
+### Python
+
+YOLOv8 may also be used directly in a Python environment as a library:
+
 ```python
 import plantsai
 ```
